@@ -5,8 +5,7 @@ const display = document.querySelector('#display')
 const qton = document.querySelector('#ton')
 const tlimpar = document.querySelector('#tlimpar')
 const tcpy = document.querySelector('#tcpy')
-const body = document.querySelector('body')
-
+const pegandoCorpo = document.querySelector('body')
 
 
 let sinal = false
@@ -63,7 +62,8 @@ tcpy.addEventListener('click', (evt) => {
   navigator.clipboard.writeText(display.innerHTML)  // ESTAMOS COPIANDO UM TEXTO DO DISPLAY
 })
 
-const mudandoCor = body.style.background = '#dcdcdc'
-
+const mudandoaCor = pegandoCorpo.style.background = '#dcdcdc'
+const mudandoaFont = pegandoCorpo.style.color = 'black'
+// CALCULADORA COMPLETA
 
 
