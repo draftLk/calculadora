@@ -60,3 +60,5 @@ teclaRes.addEventListener('click', () => {
 tcpy.addEventListener('click', (evt) => {
   navigator.clipboard.writeText(display.innerHTML)  // ESTAMOS COPIANDO UM TEXTO DO DISPLAY
 })
+
+const mudandoCor = document.body.style.background = '#dcdcdc'
