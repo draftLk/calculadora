@@ -5,6 +5,8 @@ const display = document.querySelector('#display')
 const qton = document.querySelector('#ton')
 const tlimpar = document.querySelector('#tlimpar')
 const tcpy = document.querySelector('#tcpy')
+const body = document.querySelector('body')
+
 
 
 let sinal = false
@@ -61,4 +63,7 @@ tcpy.addEventListener('click', (evt) => {
   navigator.clipboard.writeText(display.innerHTML)  // ESTAMOS COPIANDO UM TEXTO DO DISPLAY
 })
 
-const mudandoCor = document.body.style.background = '#dcdcdc'
+const mudandoCor = body.style.background = '#dcdcdc'
+
+
+
